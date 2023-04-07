@@ -1,0 +1,43 @@
+.footer {
+  background-color: #48ACF0;
+  font-family: Montserrat, serif;
+  color: white;
+  box-sizing: border-box;
+}
+.footer .footerWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 30px;
+}
+.footer .footerWrapper .head-text {
+  margin-top: 3%;
+}
+.footer .footerWrapper .head-text .digi-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer .footerWrapper .soc-icons {
+  display: flex;
+  width: 100%;
+}
+.footer .footerWrapper .soc-icons .center {
+  display: flex;
+  gap: 40px;
+  margin-left: 25%;
+  padding: 0 10%;
+}
+.footer .footerWrapper .soc-icons .center .icons {
+  width: 40px;
+  height: 40px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.footer .footerWrapper .copyright .copy {
+  font-family: Montserrat, Nunito, serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=footer.css.map */

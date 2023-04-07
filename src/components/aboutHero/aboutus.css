@@ -1,0 +1,54 @@
+.a-hero {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, Nunito, serif;
+  background-image: url("https://images.pexels.com/photos/3813341/pexels-photo-3813341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 95vh;
+  color: white;
+  overflow-x: hidden;
+}
+.a-hero .a-hero-wrapper .head {
+  font-size: 80px;
+  font-weight: 800;
+  text-align: center;
+}
+.a-hero .a-hero-wrapper .about-text {
+  font-size: 30px;
+  margin: 3% 17%;
+  font-weight: bold;
+}
+.a-hero .a-hero-wrapper .email {
+  cursor: pointer;
+}
+.a-hero .a-hero-wrapper .email .email-item {
+  text-align: center;
+  margin: 0 40% 0 42%;
+  display: inline-block;
+  background-color: #48ACF0;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.a-hero .a-hero-wrapper .email .email-item:hover {
+  color: #48ACF0;
+  background-color: white;
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
+  .a-hero .about-text {
+    font-size: 20px;
+  }
+  .email {
+    margin-bottom: 5%;
+  }
+}
+
+/*# sourceMappingURL=aboutus.css.map */

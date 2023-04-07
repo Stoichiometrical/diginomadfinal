@@ -1,0 +1,40 @@
+.form {
+  color: #48ACF0;
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #48ACF0;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background-color: rgba(128, 128, 128, 0.84);
+}
+.form .form-h .form-head {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.form .form-h .f1 {
+  display: flex;
+  flex-direction: column;
+}
+.form .form-h .f1 label {
+  font-weight: bold;
+  margin-bottom: 1.4%;
+}
+.form .form-h .f1 .f-input {
+  margin-bottom: 2.2%;
+  padding: 10px;
+  outline-color: #48ACF0;
+}
+.form .form-h .btn {
+  background-color: #48ACF0;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=form.css.map */

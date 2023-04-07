@@ -1,0 +1,51 @@
+.card-container {
+  font-family: Montserrat, serif;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.card-container img {
+  width: 200px;
+  height: 250px;
+  border-radius: 15px;
+}
+.card-container img:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+.card-container .text-cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.cards {
+  font-family: Montserrat, serif;
+}
+.cards .cardsWrapper {
+  padding: 10px;
+}
+.cards .cardsWrapper .head {
+  text-align: center;
+  font-weight: bold;
+  color: #48ACF0;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+.cards .cardsWrapper .card-sect {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-flow: wrap;
+}
+
+/*# sourceMappingURL=card.css.map */

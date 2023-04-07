@@ -1,0 +1,85 @@
+.hero {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, Nunito, serif;
+  background-image: url("https://images.pexels.com/photos/3767406/pexels-photo-3767406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+  overflow-x: hidden;
+}
+.hero .heroWrapper {
+  box-sizing: border-box;
+}
+.hero .heroWrapper .text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  height: 100%;
+}
+.hero .heroWrapper .text .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero .heroWrapper .text .section .big-text {
+  margin-bottom: 10%;
+}
+.hero .heroWrapper .text .section .big-text .h1 {
+  font-size: 80px;
+  font-weight: 800;
+}
+.hero .heroWrapper .text .section .big-text .h1 .change {
+  color: #48ACF0;
+}
+.hero .heroWrapper .text .section .big-text .stext {
+  font-style: italic;
+  margin-left: 15%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hero .heroWrapper .text .section .discover {
+  margin-top: 10%;
+  cursor: pointer;
+  margin-left: 8%;
+}
+.hero .heroWrapper .text .section .discover .dtext {
+  font-weight: bold;
+  color: white;
+  padding: 15px 30px;
+  background-color: #48ACF0;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+.hero .heroWrapper .text .section .discover .dtext:hover {
+  scale: 2.5%;
+  color: #48ACF0;
+  background-color: white;
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
+  .hero .heroWrapper .text .section .big-text .h1 {
+    font-size: 50px;
+  }
+  .hero .heroWrapper .text .section .big-text .stext {
+    margin-left: 10%;
+    font-size: 16px;
+  }
+  .hero .heroWrapper .text .section .discover {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .hero .heroWrapper .text .section .discover .dtext {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+/*# sourceMappingURL=hero.css.map */

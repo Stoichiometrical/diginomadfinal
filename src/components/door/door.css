@@ -1,0 +1,25 @@
+.door {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.door .doorWrapper .im-cont {
+  display: flex;
+  justify-content: center;
+}
+.door .doorWrapper .im-cont .door-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+.door .doorWrapper .im-cont .d2 {
+  display: none;
+}
+.door .doorWrapper .door-text {
+  color: #48ACF0;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=door.css.map */

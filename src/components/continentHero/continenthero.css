@@ -1,0 +1,42 @@
+.c-hero {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, Nunito, serif;
+  background-image: url("https://images.pexels.com/photos/1154638/pexels-photo-1154638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 90vh;
+  color: white;
+  overflow-x: hidden;
+}
+.c-hero .c-hero-wrapper .text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  height: 100%;
+  margin-bottom: 5%;
+}
+.c-hero .c-hero-wrapper .text .b-txt {
+  font-size: 80px;
+  font-weight: 800;
+}
+.c-hero .c-hero-wrapper .text .s-txt {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+.c-hero .c-hero-wrapper .search {
+  font-weight: bold;
+  color: white;
+  padding: 15px 30px;
+  background-color: #48ACF0;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=continenthero.css.map */

@@ -1,0 +1,91 @@
+.navbar {
+  color: #48ACF0;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-family: Nunito, serif;
+  box-sizing: border-box;
+}
+.navbar .navbarWrapper {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px;
+  align-content: space-around;
+  align-items: center;
+  width: 100vw;
+  gap: 35px;
+}
+.navbar .navbarWrapper .img {
+  width: 80px;
+  height: 80px;
+}
+.navbar .navbarWrapper .li {
+  text-decoration: none;
+  color: #48ACF0;
+  flex: 1;
+}
+.navbar .navbarWrapper .s-container {
+  flex: 5;
+  position: relative;
+}
+.navbar .navbarWrapper .s-container .input {
+  border-radius: 50px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  height: 20px;
+  color: #48ACF0;
+  font-weight: bold;
+  opacity: 85%;
+}
+.navbar .navbarWrapper .s-container .input::placeholder {
+  color: #48ACF0;
+  text-align: center;
+}
+.navbar .navbarWrapper .s-container .s-icon {
+  position: absolute;
+  width: 40px;
+  height: 36px;
+  right: 23%;
+  top: 17%;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
+  .img {
+    width: 50px;
+    height: 50px;
+  }
+  .s-container {
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    top: 17%;
+  }
+  .s-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .navbarWrapper {
+    gap: 10px;
+    width: 100%;
+    padding: 5px;
+    align-content: center;
+  }
+  .li {
+    font-size: 15px;
+    margin-right: 9%;
+  }
+  .input {
+    width: 100%;
+    height: 80px;
+  }
+  .input::placeholder {
+    font-size: 10px;
+  }
+  .s-icon {
+    width: 20px;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */

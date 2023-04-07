@@ -1,0 +1,37 @@
+.s-container{
+  position : relative;
+
+
+
+.input{
+
+  height : 60px;
+  border-radius : 40px;
+  padding : 10px;
+  outline: none;
+  border : none;
+  width  : 60%;
+  opacity : 78%;
+  margin : 0 17%;
+  color: #48ACF0;
+
+  &::placeholder{
+    text-align: center;
+    font-weight : 800;
+    font-style : italic;
+    color: #48ACF0;
+  }
+}
+  .s-icon{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right : 23%;
+    top : 20%;
+    cursor: pointer;
+
+    //bottom : 50%;
+  }
+
+}

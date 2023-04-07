@@ -1,0 +1,29 @@
+.col{
+
+.col-wrapper{
+  padding : 10px;
+  margin : 2% 15%;
+
+
+
+  .head{
+    text-align: center;
+    color:#48ACF0;
+    font-weight : bold;
+    font-size : 22px;
+
+  }
+
+  .bar{
+
+  }
+}
+
+
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) {
+  .col-wrapper{
+    margin-left: 2%;
+  }
+}
